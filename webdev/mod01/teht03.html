@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtävä 3</title>
+</head>
+<body>
+    <h1>Tehtävä 3</h1>
+    <p id="target"></p>
+    <script>
+        "use strict";
+        const ekaStr = prompt("Anna ensimmäinen kokonaisluku: ");
+        const eka = parseInt(ekaStr);
+        const tokaStr = prompt("Anna toinen kokonaislluku: ");
+        const toka = parseInt(tokaStr);
+        const kolmasStr = prompt("Anna kolmas kokonaisluku: ");
+        const kolmas = parseInt(kolmasStr);
+
+        const summa = eka + toka + kolmas
+        document.querySelector("#target").innerHTML =
+        "Summa on " + summa
+    </script>
+</body>
+</html>
