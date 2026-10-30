@@ -23,6 +23,15 @@ h1 {
     padding-bottom: 10px;
 }
 
+.teksti {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container p {
+    text-align: center;
+}
+
 .layout {
     min-height: 100vh;
     display: flex;
@@ -83,28 +92,27 @@ h1 {
 }
 
 .prod-kuva {
-    margin-bottom: 25px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-
 .prod-kuva img {
+    display: flex;
     width: 100%;
-    height: 100%;
+    height: 200px;
     border: 1px solid black;
     background-color: aqua;
 }
 
-.teksti {
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.container {
+.container-prod {
     display: flex;
     flex-direction: column;
+}
+
+.container-prod p {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
 }
 
 .products {
@@ -112,31 +120,51 @@ h1 {
     justify-content: space-evenly;
 }
 
-.item {
-    background-color: #1ece3b;
-    width: 250px;
-    height: 350px;
-    padding: 10px;
-}
-
-.item p {
+.products p {
     text-align: left;
 }
 
-.contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+.item {
+    background-color: #1ece3b;
+    width: 250px;
+    height: 650px;
+    padding: 10px;
+}
+
+.item img {
     width: 100%;
+    height: 400px
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.box h1 {
+    text-align: left;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.box p {
+    margin: 0px;
+}
+
+.box {
     padding-left: 50px;
 }
 
-.contacts h1 {
-    padding: 0px;
+.map iframe {
+    width: 600px;
+    height: 450px;
+    padding-top: 40px;
 }
 
-.info {
-    width: 25px;
-    padding: 0px;
-}
+
+
+
+
