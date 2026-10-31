@@ -4,13 +4,16 @@ body {
 }
 
 body {
-    background-color: pink;
+    background-color: #faf4e1;
     margin: 0px;
     font-size: 1rem;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 main {
-    background-color: crimson;
+    background-color: #cdeec4;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -26,6 +29,7 @@ h1 {
 .teksti {
     padding-left: 50px;
     padding-right: 50px;
+    
 }
 
 .container p {
@@ -61,22 +65,26 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hotpink;
+    background-color: #244C3A;
     height: 64px;
+}
+
+.logo {
+    height: 100%;
 }
 
 .nav-links a {
     display: flex;
     align-items: center;
     padding: 0 20px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     height: 100%;
     box-sizing: border-box;
 }
 
 .navbar a:hover {
-    background-color: rgb(255, 185, 240);
+    background-color: rgb(31, 61, 46);
 }
 
 .kuva {
@@ -99,7 +107,7 @@ h1 {
 .prod-kuva img {
     display: flex;
     width: 100%;
-    height: 200px;
+    height: 300px;
     border: 1px solid black;
     background-color: aqua;
 }
@@ -110,9 +118,12 @@ h1 {
 }
 
 .container-prod p {
-    padding-left: 0px;
-    padding-right: 0px;
     text-align: left;
+}
+
+.prod-teksti {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .products {
@@ -125,9 +136,8 @@ h1 {
 }
 
 .item {
-    background-color: #1ece3b;
+    background-color: #a4dbc9;
     width: 250px;
-    height: 650px;
     padding: 10px;
 }
 
@@ -163,8 +173,3 @@ section {
     height: 450px;
     padding-top: 40px;
 }
-
-
-
-
-
