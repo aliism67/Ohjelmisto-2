@@ -16,3 +16,17 @@ Tehdyt tehtävät:
 -tehtävä 5: 3p
 
  **Yhteensä 11p**
+
+ ### JS moduuli 3
+
+ [Linkki js mod 1 ja 2 kansioon osoitteessa users.metropolia.fi](https://users.metropolia.fi/~aliism/Ohjelmisto%202/mod03/)
+
+ Tehdyt tehtävät:
+
+ -tehtävä 1: 2p
+ -tehtävä 2: 2p
+ -tehtävä 3: 2p
+ -tehtävä 4: 2p
+ -tehtävä 5: 2p
+
+ **Yhteensä 10p**
