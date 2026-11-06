@@ -1,19 +1,17 @@
 "use strict";
 
 function dice_roll(max_roll) {
-    return Math.floor(Math.random() * max_roll) + 1;
+    let result = Math.floor(Math.random() * max_roll) + 1;
+    return result;
 }
-
+const roll = Number(prompt("Enter the maximum roll value:"));
 let result;
 let html = "<ul>";
 
-do { 
-    result = dice_roll(max_roll)
-    html += `<li>${result}</li>`;
-} while (result !== max_roll);
+do {
+    result = dice_roll(roll);
+    html += `<li>You rolled a ${result}</li>`;
+} while (result < roll);
 
 html += "</ul>";
-
-max_roll = Number(prompt("Anna nopan sivujen määrä"))
-
 document.querySelector("#target").innerHTML = html;
