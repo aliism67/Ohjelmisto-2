@@ -41,3 +41,4 @@ Tehdyt tehtävät:
 -tehtävä 4: 2p
 -tehtävä 5: 5p
 
+**Yhteensä 13p**
