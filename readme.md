@@ -42,3 +42,12 @@ Tehdyt tehtävät:
 -tehtävä 5: 5p
 
 **Yhteensä 13p**
+
+### Python Flask server
+
+[Linkki Python Flask server kansioon osoitteessa users.metropolia.fi](https://users.metropolia.fi/~aliism/Ohjelmisto%202/Python_Flask_server/)
+
+-tehtävä 1: 4p
+-tehtävä 2: 10p
+
+**Yhteensä 14p**
