@@ -51,3 +51,10 @@ Tehdyt tehtävät:
 -tehtävä 2: 10p
 
 **Yhteensä 14p**
+
+### JS moduuli 4
+
+[Linkki Python Flask server kansioon osoitteessa users.metropolia.fi](https://users.metropolia.fi/~aliism/Ohjelmisto%202/mod05/)
+
+-tehtävä 2: 3p
+-tehtävä 3: 7p
